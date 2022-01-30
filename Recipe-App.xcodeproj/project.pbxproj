@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C127A45AD000AC3269 /* AppDelegate.swift */; };
 		AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */; };
-		AF6A55C627A45AD000AC3269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C527A45AD000AC3269 /* ViewController.swift */; };
 		AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55C727A45AD000AC3269 /* Main.storyboard */; };
 		AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CA27A45AD500AC3269 /* Assets.xcassets */; };
 		AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */; };
+		AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */; };
+		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
+		C65F0DD7B12450F04FA55DB8 /* libPods-Recipe-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53338E7FDAAAFF9412E836E3 /* Pods-Recipe-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe-App.release.xcconfig"; path = "Target Support Files/Pods-Recipe-App/Pods-Recipe-App.release.xcconfig"; sourceTree = "<group>"; };
+		6F7FD1FF620CD6D771183E83 /* Pods-Recipe-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe-App.debug.xcconfig"; path = "Target Support Files/Pods-Recipe-App/Pods-Recipe-App.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6A55BE27A45AD000AC3269 /* Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6A55C127A45AD000AC3269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF6A55C527A45AD000AC3269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF6A55C827A45AD000AC3269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6A55CA27A45AD500AC3269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6A55CD27A45AD500AC3269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6A55CF27A45AD500AC3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recipe-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65F0DD7B12450F04FA55DB8 /* libPods-Recipe-App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		959A73C453269B6F8B62B42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF6A55B527A45AD000AC3269 = {
 			isa = PBXGroup;
 			children = (
 				AF6A55C027A45AD000AC3269 /* Recipe-App */,
 				AF6A55BF27A45AD000AC3269 /* Products */,
+				D6C69BC69294C2CC59F878CE /* Pods */,
+				959A73C453269B6F8B62B42E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,41 @@
 		AF6A55C027A45AD000AC3269 /* Recipe-App */ = {
 			isa = PBXGroup;
 			children = (
+				AFAF8E9127A6AB0F00D104DF /* Controllers */,
+				AFAF8E8E27A6A40600D104DF /* Custom */,
 				AF6A55C127A45AD000AC3269 /* AppDelegate.swift */,
 				AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */,
-				AF6A55C527A45AD000AC3269 /* ViewController.swift */,
 				AF6A55C727A45AD000AC3269 /* Main.storyboard */,
 				AF6A55CA27A45AD500AC3269 /* Assets.xcassets */,
 				AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */,
 				AF6A55CF27A45AD500AC3269 /* Info.plist */,
 			);
 			path = "Recipe-App";
+			sourceTree = "<group>";
+		};
+		AFAF8E8E27A6A40600D104DF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		AFAF8E9127A6AB0F00D104DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D6C69BC69294C2CC59F878CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F7FD1FF620CD6D771183E83 /* Pods-Recipe-App.debug.xcconfig */,
+				53338E7FDAAAFF9412E836E3 /* Pods-Recipe-App.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF6A55D227A45AD500AC3269 /* Build configuration list for PBXNativeTarget "Recipe-App" */;
 			buildPhases = (
+				8A6E862F868799B226D3FDB9 /* [CP] Check Pods Manifest.lock */,
 				AF6A55BA27A45AD000AC3269 /* Sources */,
 				AF6A55BB27A45AD000AC3269 /* Frameworks */,
 				AF6A55BC27A45AD000AC3269 /* Resources */,
@@ -133,13 +177,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A6E862F868799B226D3FDB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Recipe-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF6A55BA27A45AD000AC3269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6A55C627A45AD000AC3269 /* ViewController.swift in Sources */,
+				AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */,
 				AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */,
+				AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */,
 				AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +354,7 @@
 		};
 		AF6A55D327A45AD500AC3269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7FD1FF620CD6D771183E83 /* Pods-Recipe-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +383,7 @@
 		};
 		AF6A55D427A45AD500AC3269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53338E7FDAAAFF9412E836E3 /* Pods-Recipe-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
