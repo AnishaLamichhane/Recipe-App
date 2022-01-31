@@ -20,16 +20,12 @@ class LoginSignupViewController: UIViewController {
     
     //    sets up the UI elements
     func setUpProperties() {
-        let orange = CustomColors(withFrame: loginButton.frame).getOrangeColor()
-        //        loginButton
-        loginButton.layer.backgroundColor = orange.cgColor
-        loginButton.layer.cornerRadius = loginButton.frame.height/2
-        btnSpacing(button: loginButton)
+        loginButton.defaultSetup(frame: loginButton.frame)
+        loginButton.addTextSpacing(spacing: 1.5)
+        signUpButton.makeCustomWhiteBtn(frame: signUpButton.frame)
+        signUpButton.addTextSpacing(spacing: 1.5)
+        dontHaveAccLabel.addTextSpacing(spacing: 1.5)
         
-        //        signUpButton
-        signUpButton.layer.borderWidth = 2
-        signUpButton.layer.borderColor = orange.cgColor
-        signUpButton.layer.cornerRadius = loginButton.frame.height/2
         
     }
     

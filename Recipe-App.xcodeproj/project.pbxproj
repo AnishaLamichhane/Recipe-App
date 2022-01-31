@@ -12,6 +12,7 @@
 		AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55C727A45AD000AC3269 /* Main.storyboard */; };
 		AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CA27A45AD500AC3269 /* Assets.xcassets */; };
 		AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */; };
+		AF7E8B7727A7D55C002C9C46 /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E8B7627A7D55C002C9C46 /* StyleButton.swift */; };
 		AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */; };
 		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
 		C65F0DD7B12450F04FA55DB8 /* libPods-Recipe-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */; };
@@ -27,6 +28,7 @@
 		AF6A55CA27A45AD500AC3269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6A55CD27A45AD500AC3269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6A55CF27A45AD500AC3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7E8B7627A7D55C002C9C46 /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
 		AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recipe-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */,
+				AF7E8B7627A7D55C002C9C46 /* StyleButton.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */,
+				AF7E8B7727A7D55C002C9C46 /* StyleButton.swift in Sources */,
 				AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */,
 				AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */,
 				AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */,
