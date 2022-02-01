@@ -9,9 +9,9 @@ import UIKit
 
 class LoginSignupViewController: UIViewController {
     //    UI View properties
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var dontHaveAccLabel: UILabel!
-    @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var loginButton: CustomButton!
+    @IBOutlet weak var dontHaveAccLabel: CustomLabel!
+    @IBOutlet weak var signUpButton: CustomButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +20,7 @@ class LoginSignupViewController: UIViewController {
     
     //    sets up the UI elements
     func setUpProperties() {
-        loginButton.defaultSetup(frame: loginButton.frame)
-        loginButton.addTextSpacing(spacing: 1.5)
-        signUpButton.makeCustomWhiteBtn(frame: signUpButton.frame)
-        signUpButton.addTextSpacing(spacing: 1.5)
-        dontHaveAccLabel.addTextSpacing(spacing: 1.5)
-        
+        signUpButton.makeCustomWhiteButton()
         
     }
     
