@@ -18,6 +18,7 @@
 		AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */; };
 		AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */; };
 		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
+		AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C6C927A90B04005757CC /* SignUpViewController.swift */; };
 		C65F0DD7B12450F04FA55DB8 /* libPods-Recipe-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		AF6A55CF27A45AD500AC3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		AFB8C6C927A90B04005757CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recipe-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 			children = (
 				AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */,
 				AF0755ED27A7F6F9003303A6 /* LoginViewController.swift */,
+				AFB8C6C927A90B04005757CC /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				AF0755F027A80377003303A6 /* CustomButton.swift in Sources */,
 				AF0755F427A80DE5003303A6 /* CustomTextfield.swift in Sources */,
 				AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */,
+				AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */,
 				AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */,
 				AF0755F227A806D3003303A6 /* CustomLabel.swift in Sources */,
 			);
