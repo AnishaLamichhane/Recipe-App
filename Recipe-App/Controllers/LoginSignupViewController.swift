@@ -13,6 +13,12 @@ class LoginSignupViewController: UIViewController {
     @IBOutlet weak var dontHaveAccLabel: CustomLabel!
     @IBOutlet weak var signUpButton: CustomButton!
     
+//    hides the status bar
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+//    first loading function
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpProperties()
@@ -29,5 +35,7 @@ class LoginSignupViewController: UIViewController {
         let attributedTitle = NSAttributedString(string: buttonTitle, attributes: [NSAttributedString.Key.kern: 4])
         button.setAttributedTitle(attributedTitle, for: .normal)
     }
+    
+  
     
 }
