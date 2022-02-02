@@ -15,6 +15,7 @@
 		AF1DBC3127AA637300F5C727 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */; };
 		AF1DBC3327AA63E000F5C727 /* FavouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */; };
 		AF1DBC3527AA640D00F5C727 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */; };
+		AF1DBC3E27AAB2EC00F5C727 /* TabBarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1DBC3D27AAB2EC00F5C727 /* TabBarMenu.storyboard */; };
 		AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C127A45AD000AC3269 /* AppDelegate.swift */; };
 		AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */; };
 		AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55C727A45AD000AC3269 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewController.swift; sourceTree = "<group>"; };
 		AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF1DBC3D27AAB2EC00F5C727 /* TabBarMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarMenu.storyboard; sourceTree = "<group>"; };
 		AF6A55BE27A45AD000AC3269 /* Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6A55C127A45AD000AC3269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF1DBC3627AA69A900F5C727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A55C727A45AD000AC3269 /* Main.storyboard */,
+				AF1DBC3D27AAB2EC00F5C727 /* TabBarMenu.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF1DBC3B27AA6B5900F5C727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */,
+				AF6A55C127A45AD000AC3269 /* AppDelegate.swift */,
+				AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */,
+				AF6A55CA27A45AD500AC3269 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AF6A55B527A45AD000AC3269 = {
 			isa = PBXGroup;
 			children = (
@@ -93,11 +115,8 @@
 			children = (
 				AFAF8E8E27A6A40600D104DF /* Custom */,
 				AFAF8E9127A6AB0F00D104DF /* Controllers */,
-				AF6A55C127A45AD000AC3269 /* AppDelegate.swift */,
-				AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */,
-				AF6A55C727A45AD000AC3269 /* Main.storyboard */,
-				AF6A55CA27A45AD500AC3269 /* Assets.xcassets */,
-				AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */,
+				AF1DBC3627AA69A900F5C727 /* View */,
+				AF1DBC3B27AA6B5900F5C727 /* Supporting Files */,
 				AF6A55CF27A45AD500AC3269 /* Info.plist */,
 			);
 			path = "Recipe-App";
@@ -197,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */,
+				AF1DBC3E27AAB2EC00F5C727 /* TabBarMenu.storyboard in Resources */,
 				AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */,
 				AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */,
 			);
