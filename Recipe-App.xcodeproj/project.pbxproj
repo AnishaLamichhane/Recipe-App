@@ -11,6 +11,10 @@
 		AF0755F027A80377003303A6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0755EF27A80377003303A6 /* CustomButton.swift */; };
 		AF0755F227A806D3003303A6 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0755F127A806D3003303A6 /* CustomLabel.swift */; };
 		AF0755F427A80DE5003303A6 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0755F327A80DE5003303A6 /* CustomTextfield.swift */; };
+		AF1DBC2F27AA630800F5C727 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC2E27AA630800F5C727 /* HomeTableViewController.swift */; };
+		AF1DBC3127AA637300F5C727 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */; };
+		AF1DBC3327AA63E000F5C727 /* FavouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */; };
+		AF1DBC3527AA640D00F5C727 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */; };
 		AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C127A45AD000AC3269 /* AppDelegate.swift */; };
 		AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */; };
 		AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55C727A45AD000AC3269 /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 		AF0755EF27A80377003303A6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AF0755F127A806D3003303A6 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		AF0755F327A80DE5003303A6 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		AF1DBC2E27AA630800F5C727 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewController.swift; sourceTree = "<group>"; };
+		AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AF6A55BE27A45AD000AC3269 /* Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6A55C127A45AD000AC3269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +91,8 @@
 		AF6A55C027A45AD000AC3269 /* Recipe-App */ = {
 			isa = PBXGroup;
 			children = (
-				AFAF8E9127A6AB0F00D104DF /* Controllers */,
 				AFAF8E8E27A6A40600D104DF /* Custom */,
+				AFAF8E9127A6AB0F00D104DF /* Controllers */,
 				AF6A55C127A45AD000AC3269 /* AppDelegate.swift */,
 				AF6A55C327A45AD000AC3269 /* SceneDelegate.swift */,
 				AF6A55C727A45AD000AC3269 /* Main.storyboard */,
@@ -112,6 +120,10 @@
 				AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */,
 				AF0755ED27A7F6F9003303A6 /* LoginViewController.swift */,
 				AFB8C6C927A90B04005757CC /* SignUpViewController.swift */,
+				AF1DBC2E27AA630800F5C727 /* HomeTableViewController.swift */,
+				AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */,
+				AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */,
+				AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -223,12 +235,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF0755EE27A7F6F9003303A6 /* LoginViewController.swift in Sources */,
+				AF1DBC3327AA63E000F5C727 /* FavouriteTableViewController.swift in Sources */,
 				AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */,
 				AF6A55C227A45AD000AC3269 /* AppDelegate.swift in Sources */,
 				AF0755F027A80377003303A6 /* CustomButton.swift in Sources */,
+				AF1DBC3127AA637300F5C727 /* CategoryTableViewController.swift in Sources */,
+				AF1DBC2F27AA630800F5C727 /* HomeTableViewController.swift in Sources */,
 				AF0755F427A80DE5003303A6 /* CustomTextfield.swift in Sources */,
 				AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */,
 				AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */,
+				AF1DBC3527AA640D00F5C727 /* ProfileViewController.swift in Sources */,
 				AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */,
 				AF0755F227A806D3003303A6 /* CustomLabel.swift in Sources */,
 			);
