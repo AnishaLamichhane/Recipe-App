@@ -21,6 +21,10 @@
 		AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55C727A45AD000AC3269 /* Main.storyboard */; };
 		AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CA27A45AD500AC3269 /* Assets.xcassets */; };
 		AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A55CC27A45AD500AC3269 /* LaunchScreen.storyboard */; };
+		AFAD73B527AACF9E0007A41A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73B427AACF9E0007A41A /* Home.storyboard */; };
+		AFAD73B727AACFC80007A41A /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73B627AACFC80007A41A /* Categories.storyboard */; };
+		AFAD73B927AACFF80007A41A /* Favourites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73B827AACFF80007A41A /* Favourites.storyboard */; };
+		AFAD73BB27AAD02E0007A41A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73BA27AAD02E0007A41A /* Profile.storyboard */; };
 		AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */; };
 		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
 		AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C6C927A90B04005757CC /* SignUpViewController.swift */; };
@@ -46,6 +50,10 @@
 		AF6A55CA27A45AD500AC3269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6A55CD27A45AD500AC3269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6A55CF27A45AD500AC3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAD73B427AACF9E0007A41A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AFAD73B627AACFC80007A41A /* Categories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
+		AFAD73B827AACFF80007A41A /* Favourites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favourites.storyboard; sourceTree = "<group>"; };
+		AFAD73BA27AAD02E0007A41A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		AFB8C6C927A90B04005757CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 			children = (
 				AF6A55C727A45AD000AC3269 /* Main.storyboard */,
 				AF1DBC3D27AAB2EC00F5C727 /* TabBarMenu.storyboard */,
+				AFAD73B427AACF9E0007A41A /* Home.storyboard */,
+				AFAD73B627AACFC80007A41A /* Categories.storyboard */,
+				AFAD73B827AACFF80007A41A /* Favourites.storyboard */,
+				AFAD73BA27AAD02E0007A41A /* Profile.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,9 +125,9 @@
 		AF6A55C027A45AD000AC3269 /* Recipe-App */ = {
 			isa = PBXGroup;
 			children = (
-				AFAF8E8E27A6A40600D104DF /* Custom */,
 				AFAF8E9127A6AB0F00D104DF /* Controllers */,
 				AF1DBC3627AA69A900F5C727 /* View */,
+				AFAF8E8E27A6A40600D104DF /* Custom */,
 				AF1DBC3B27AA6B5900F5C727 /* Supporting Files */,
 				AF6A55CF27A45AD500AC3269 /* Info.plist */,
 			);
@@ -216,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF6A55CE27A45AD500AC3269 /* LaunchScreen.storyboard in Resources */,
+				AFAD73B527AACF9E0007A41A /* Home.storyboard in Resources */,
+				AFAD73BB27AAD02E0007A41A /* Profile.storyboard in Resources */,
 				AF1DBC3E27AAB2EC00F5C727 /* TabBarMenu.storyboard in Resources */,
+				AFAD73B927AACFF80007A41A /* Favourites.storyboard in Resources */,
 				AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */,
+				AFAD73B727AACFC80007A41A /* Categories.storyboard in Resources */,
 				AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

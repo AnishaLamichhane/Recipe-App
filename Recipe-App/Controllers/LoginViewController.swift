@@ -14,7 +14,8 @@ class LoginViewController: UIViewController {
     //    first loading function
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpProperties()
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
+     
     }
     
     @IBAction func backButtonTapped(_ sender: UIBarButtonItem) {
@@ -27,7 +28,9 @@ class LoginViewController: UIViewController {
         return true
     }
     
-    func setUpProperties() {
+    @objc func hideKeyboard() {
+        self.view.endEditing(true)
     }
+    
     
 }
