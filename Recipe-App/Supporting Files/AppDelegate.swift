@@ -11,11 +11,16 @@ import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+//var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
         IQKeyboardManager.shared.enable = true
+//        let tabBarStoryBoard = UIStoryboard(name: "TabBarMenu", bundle: nil)
+//        let tabBarController = tabBarStoryBoard.instantiateViewController(withIdentifier: "TabBarSection") as! UITabBarController
+//        window?.rootViewController = tabBarController
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -16,6 +16,13 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.navigationItem.setHidesBackButton(true, animated: false)
+    }
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+   
 
     /*
     // MARK: - Navigation

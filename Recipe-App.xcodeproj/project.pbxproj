@@ -25,6 +25,8 @@
 		AFAD73B727AACFC80007A41A /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73B627AACFC80007A41A /* Categories.storyboard */; };
 		AFAD73B927AACFF80007A41A /* Favourites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73B827AACFF80007A41A /* Favourites.storyboard */; };
 		AFAD73BB27AAD02E0007A41A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD73BA27AAD02E0007A41A /* Profile.storyboard */; };
+		AFAD9BBB27E9F1F100545DFB /* ReceipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD9BBA27E9F1F100545DFB /* ReceipeCell.swift */; };
+		AFAD9BBF27EB3D2600545DFB /* ReceipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAD9BBE27EB3D2600545DFB /* ReceipeCell.xib */; };
 		AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */; };
 		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
 		AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C6C927A90B04005757CC /* SignUpViewController.swift */; };
@@ -54,6 +56,8 @@
 		AFAD73B627AACFC80007A41A /* Categories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
 		AFAD73B827AACFF80007A41A /* Favourites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favourites.storyboard; sourceTree = "<group>"; };
 		AFAD73BA27AAD02E0007A41A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		AFAD9BBA27E9F1F100545DFB /* ReceipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCell.swift; sourceTree = "<group>"; };
+		AFAD9BBE27EB3D2600545DFB /* ReceipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceipeCell.xib; sourceTree = "<group>"; };
 		AFAF8E8F27A6A42B00D104DF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		AFB8C6C927A90B04005757CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 		AF6A55C027A45AD000AC3269 /* Recipe-App */ = {
 			isa = PBXGroup;
 			children = (
+				AFAD9BB727E9F11200545DFB /* CustomCell */,
 				AFAF8E9127A6AB0F00D104DF /* Controllers */,
 				AF1DBC3627AA69A900F5C727 /* View */,
 				AFAF8E8E27A6A40600D104DF /* Custom */,
@@ -132,6 +137,15 @@
 				AF6A55CF27A45AD500AC3269 /* Info.plist */,
 			);
 			path = "Recipe-App";
+			sourceTree = "<group>";
+		};
+		AFAD9BB727E9F11200545DFB /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD9BBA27E9F1F100545DFB /* ReceipeCell.swift */,
+				AFAD9BBE27EB3D2600545DFB /* ReceipeCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		AFAF8E8E27A6A40600D104DF /* Custom */ = {
@@ -233,6 +247,7 @@
 				AF1DBC3E27AAB2EC00F5C727 /* TabBarMenu.storyboard in Resources */,
 				AFAD73B927AACFF80007A41A /* Favourites.storyboard in Resources */,
 				AF6A55CB27A45AD500AC3269 /* Assets.xcassets in Resources */,
+				AFAD9BBF27EB3D2600545DFB /* ReceipeCell.xib in Resources */,
 				AFAD73B727AACFC80007A41A /* Categories.storyboard in Resources */,
 				AF6A55C927A45AD000AC3269 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +294,7 @@
 				AF1DBC2F27AA630800F5C727 /* HomeTableViewController.swift in Sources */,
 				AF0755F427A80DE5003303A6 /* CustomTextfield.swift in Sources */,
 				AFAF8E9027A6A42B00D104DF /* CustomColors.swift in Sources */,
+				AFAD9BBB27E9F1F100545DFB /* ReceipeCell.swift in Sources */,
 				AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */,
 				AF1DBC3527AA640D00F5C727 /* ProfileViewController.swift in Sources */,
 				AF6A55C427A45AD000AC3269 /* SceneDelegate.swift in Sources */,

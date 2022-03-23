@@ -30,9 +30,12 @@ class CategoryTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+    
     override func viewWillAppear(_ animated: Bool) {
-        self.tabBarController?.navigationItem.setHidesBackButton(true, animated: true)
-        
+        self.tabBarController?.navigationItem.setHidesBackButton(true, animated: false)
     }
-
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+   
 }

@@ -36,6 +36,10 @@ class LoginSignupViewController: UIViewController {
         button.setAttributedTitle(attributedTitle, for: .normal)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.navigationItem.hidesBackButton = true
+
+    }
   
     
 }

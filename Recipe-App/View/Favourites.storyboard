@@ -43,7 +43,6 @@
         <!--Navigation Controller-->
         <scene sceneID="gTh-Ne-iOr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ym-hs-xmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zin-Ep-Inc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" selectedImage="heart.fill" id="224-Yo-vc0"/>
                     <toolbarItems/>
@@ -60,6 +59,7 @@
                         <segue destination="38o-IR-gbg" kind="relationship" relationship="rootViewController" id="BJS-BT-PEO"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ym-hs-xmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4390" y="704"/>
         </scene>

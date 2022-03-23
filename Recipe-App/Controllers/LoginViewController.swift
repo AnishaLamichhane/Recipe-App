@@ -31,6 +31,9 @@ class LoginViewController: UIViewController {
     @objc func hideKeyboard() {
         self.view.endEditing(true)
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.navigationItem.hidesBackButton = true
+
+    }
     
 }
