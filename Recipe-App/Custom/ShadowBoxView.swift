@@ -14,7 +14,7 @@ class ShadowBoxView: UIView {
     func applyShadow(){
         self.layer.shadowColor = UIColor.darkGray.cgColor
         self.layer.shadowOpacity = 0.5
-        self.layer.shadowOffset = CGSize(width: 0, height: 8)
+        self.layer.shadowOffset = CGSize(width: 8, height: 8)
         self.layer.shadowRadius = 8
         let radii = CGSize(width: 8, height: 8)
         self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: .allCorners, cornerRadii: radii).cgPath

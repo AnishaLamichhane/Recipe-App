@@ -8,21 +8,25 @@
 import UIKit
 
 class HomeTableViewController: UITableViewController {
-
+let sections = ["Feature session", "receipe Section"]
+    let items = [["pasta", "PASTA", "Pasta"],["pasta", "pasta","pasta","pasta"]]
     override func viewDidLoad() {
         super.viewDidLoad()
         let receipeCell = UINib.init(nibName: "ReceipeCell", bundle: nil)
         tableView.register(receipeCell, forCellReuseIdentifier: "ReceipeCell")
+        
+        let featureCell = UINib.init(nibName: "FeatureCell", bundle: nil)
+        tableView.register(featureCell, forCellReuseIdentifier: "FeatureCell")
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return sections.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return items[section].count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
