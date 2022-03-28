@@ -47,7 +47,9 @@
         <scene sceneID="rIe-cZ-jTY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="72i-eE-e68" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" selectedImage="house.fill" id="HPV-Ie-L2p"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" selectedImage="house.fill" id="HPV-Ie-L2p">
+                        <color key="badgeColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8w-5Y-FI4">

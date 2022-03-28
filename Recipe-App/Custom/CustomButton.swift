@@ -20,6 +20,8 @@ class CustomButton: UIButton {
     func defaultSetup() {
         let orange = CustomColors(withFrame: frame).getOrangeColor()
         layer.backgroundColor = orange.cgColor
+        layer.borderWidth = 2
+        layer.borderColor = orange.cgColor
         layer.cornerRadius = frame.height/2
         layer.masksToBounds = true
         
@@ -39,3 +41,5 @@ class CustomButton: UIButton {
         layer.masksToBounds = true
     }
 }
+
+

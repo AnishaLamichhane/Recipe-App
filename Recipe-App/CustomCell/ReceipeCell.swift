@@ -10,8 +10,6 @@ import UIKit
 class ReceipeCell: UITableViewCell {
 
     override func awakeFromNib() {
-        //
-        //
         super.awakeFromNib()
         selectionStyle = .none
     }

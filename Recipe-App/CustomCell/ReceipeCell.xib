@@ -15,11 +15,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9CV-wp-qZS" userLabel="shadowView" customClass="ShadowBoxView" customModule="Recipe_App" customModuleProvider="target">
-                    <rect key="frame" x="16" y="8" width="343" height="244"/>
+                    <rect key="frame" x="16" y="0.0" width="343" height="244"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wn-Ue-R8q">
-                    <rect key="frame" x="16" y="8" width="343" height="244"/>
+                    <rect key="frame" x="16" y="0.0" width="343" height="244"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food2" translatesAutoresizingMaskIntoConstraints="NO" id="Hb5-0x-VSE">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="128"/>
@@ -108,14 +108,14 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="1wn-Ue-R8q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2Me-wN-JUt"/>
                 <constraint firstItem="9CV-wp-qZS" firstAttribute="leading" secondItem="1wn-Ue-R8q" secondAttribute="leading" id="4lc-s4-XAV"/>
                 <constraint firstItem="1wn-Ue-R8q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="5p5-Br-wty"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1wn-Ue-R8q" secondAttribute="bottom" constant="8" id="Ctk-Cr-yFy"/>
+                <constraint firstAttribute="bottom" secondItem="1wn-Ue-R8q" secondAttribute="bottom" constant="16" id="6RL-dc-jbp"/>
                 <constraint firstAttribute="trailing" secondItem="1wn-Ue-R8q" secondAttribute="trailing" constant="16" id="cZE-Wo-sAY"/>
                 <constraint firstItem="1wn-Ue-R8q" firstAttribute="trailing" secondItem="9CV-wp-qZS" secondAttribute="trailing" id="fby-sH-VCM"/>
                 <constraint firstItem="9CV-wp-qZS" firstAttribute="bottom" secondItem="1wn-Ue-R8q" secondAttribute="bottom" id="mOI-Ze-bGZ"/>
                 <constraint firstItem="9CV-wp-qZS" firstAttribute="top" secondItem="1wn-Ue-R8q" secondAttribute="top" id="mjr-ry-rnH"/>
-                <constraint firstItem="1wn-Ue-R8q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="pPA-HQ-eL9"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>

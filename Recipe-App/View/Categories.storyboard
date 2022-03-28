@@ -44,7 +44,7 @@
         <scene sceneID="w78-eV-7lt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="euZ-3W-1gV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="star" catalog="system" selectedImage="star.fill" id="ZL1-yh-u5f"/>
+                    <tabBarItem key="tabBarItem" title="" image="fork.knife" catalog="system" selectedImage="fork.knife" id="ZL1-yh-u5f"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jGG-Vs-lQd">
@@ -65,9 +65,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fork.knife" catalog="system" width="92" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <image name="star" catalog="system" width="128" height="116"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
