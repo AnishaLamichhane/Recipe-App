@@ -50,6 +50,16 @@ class HomeTableViewController: UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let featuredCell = cell as? FeatureCell
+        featuredCell?.collectionView.delegate = self
+        featuredCell?.collectionView.dataSource = self
+        
+        let collectionViewCellNib = UINib.init(nibName: "FeaturedCollectionCell", bundle: nil)
+        featuredCell?.collectionView.register(collectionViewCellNib, forCellWithReuseIdentifier: "CollectionCell")
+        
+    }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         guard let section = cellSection(rawValue: indexPath.section) else { return 0}
         switch section {
@@ -75,6 +85,27 @@ class HomeTableViewController: UITableViewController {
     }
     
    
+    
+}
+
+extension HomeTableViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionCell", for: indexPath) as! FeaturedCollectionCell
+        return cell
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let size = CGSize(width: 250, height: 120)
+        return size
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 20, left: 16, bottom: 20, right: 16)
+    }
     
 }
 enum cellSection:Int{

@@ -17,14 +17,14 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4E-dG-V3q">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
                     <subviews>
-                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="emb-cn-hfg">
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="emb-cn-hfg">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lZm-zX-jYv">
-                                <size key="itemSize" width="128" height="128"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lZm-zX-jYv">
+                                <size key="itemSize" width="375" height="160"/>
                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                 <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="sectionInset" minX="16" minY="20" maxX="16" maxY="20"/>
                             </collectionViewFlowLayout>
                         </collectionView>
                     </subviews>
@@ -44,7 +44,12 @@
                 <constraint firstAttribute="bottom" secondItem="s4E-dG-V3q" secondAttribute="bottom" id="ApG-SS-ke4"/>
                 <constraint firstItem="s4E-dG-V3q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="z40-Ic-Tlz"/>
             </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="emb-cn-hfg" id="XxM-MQ-1PL"/>
+            </connections>
             <point key="canvasLocation" x="58.695652173913047" y="342.1875"/>
         </view>
     </objects>

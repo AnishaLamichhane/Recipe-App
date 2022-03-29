@@ -16,7 +16,6 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-wP-IJc" userLabel="ShadowView" customClass="ShadowBoxView" customModule="Recipe_App" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBw-9i-qmG">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
