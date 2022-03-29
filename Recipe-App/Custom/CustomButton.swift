@@ -18,7 +18,7 @@ class CustomButton: UIButton {
     }
     
     func defaultSetup() {
-        let orange = CustomColors(withFrame: frame).getOrangeColor()
+        let orange = UIColor.orange
         layer.backgroundColor = orange.cgColor
         layer.borderWidth = 2
         layer.borderColor = orange.cgColor
@@ -33,7 +33,7 @@ class CustomButton: UIButton {
     }
     
     func makeCustomWhiteButton() {
-        let orange = CustomColors(withFrame: frame).getOrangeColor()
+        let orange = UIColor.orange
         layer.borderWidth = 2
         backgroundColor = .white
         layer.borderColor = orange.cgColor
