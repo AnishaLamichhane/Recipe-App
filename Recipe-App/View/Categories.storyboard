@@ -16,13 +16,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GK7-sv-L8t">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CategoriesCell" rowHeight="60" id="9vY-CF-VqD" customClass="CategoriesCell" customModule="Recipe_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GK7-sv-L8t" id="P3z-X0-c3Z">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9vY-CF-VqD" id="JEf-as-dHi">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDv-Sq-AZW" userLabel="ShadowView" customClass="ShadowBoxView" customModule="Recipe_App" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="5" width="382" height="50"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9j-U9-dFn">
+                                                    <rect key="frame" x="8" y="8" width="366" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="I9j-U9-dFn" secondAttribute="bottom" constant="8" id="2Eb-GC-egj"/>
+                                                <constraint firstAttribute="trailing" secondItem="I9j-U9-dFn" secondAttribute="trailing" constant="8" id="Rg1-gq-HJc"/>
+                                                <constraint firstItem="I9j-U9-dFn" firstAttribute="top" secondItem="FDv-Sq-AZW" secondAttribute="top" constant="8" id="fvo-Nv-VOV"/>
+                                                <constraint firstItem="I9j-U9-dFn" firstAttribute="leading" secondItem="FDv-Sq-AZW" secondAttribute="leading" constant="8" id="oQ8-3O-hnY"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="FDv-Sq-AZW" secondAttribute="bottom" constant="5" id="Hfb-j7-GLX"/>
+                                        <constraint firstAttribute="trailing" secondItem="FDv-Sq-AZW" secondAttribute="trailing" constant="16" id="ZwO-JU-KnX"/>
+                                        <constraint firstItem="FDv-Sq-AZW" firstAttribute="top" secondItem="JEf-as-dHi" secondAttribute="top" constant="5" id="il8-3S-WM0"/>
+                                        <constraint firstItem="FDv-Sq-AZW" firstAttribute="leading" secondItem="JEf-as-dHi" secondAttribute="leading" constant="16" id="uhf-hf-h7D"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryLabel" destination="I9j-U9-dFn" id="rv8-lN-fRg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -38,7 +67,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nn-yE-RiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3319" y="1446"/>
+            <point key="canvasLocation" x="3318.840579710145" y="1445.3804347826087"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w78-eV-7lt">

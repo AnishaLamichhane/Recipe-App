@@ -36,6 +36,7 @@
 		AFAD9BC127EC53A500545DFB /* ShadowBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD9BC027EC53A500545DFB /* ShadowBoxView.swift */; };
 		AFAF8E9327A6AB5700D104DF /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */; };
 		AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C6C927A90B04005757CC /* SignUpViewController.swift */; };
+		AFE4054D27F4087D00DC9A60 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4054C27F4087D00DC9A60 /* CategoriesCell.swift */; };
 		C65F0DD7B12450F04FA55DB8 /* libPods-Recipe-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		AFAD9BC027EC53A500545DFB /* ShadowBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowBoxView.swift; sourceTree = "<group>"; };
 		AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		AFB8C6C927A90B04005757CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AFE4054C27F4087D00DC9A60 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		EC08071E62159ADBA2903456 /* libPods-Recipe-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recipe-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -183,12 +185,37 @@
 				AFAF8E9227A6AB5700D104DF /* LoginSignupViewController.swift */,
 				AF0755ED27A7F6F9003303A6 /* LoginViewController.swift */,
 				AFB8C6C927A90B04005757CC /* SignUpViewController.swift */,
-				AF1DBC2E27AA630800F5C727 /* HomeTableViewController.swift */,
-				AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */,
-				AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */,
+				AFE4054F27F4089C00DC9A60 /* Home */,
+				AFE4054B27F4085F00DC9A60 /* Categories */,
+				AFE4054E27F4088900DC9A60 /* Favourites */,
 				AF1DBC3427AA640D00F5C727 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFE4054B27F4085F00DC9A60 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DBC3027AA637300F5C727 /* CategoryTableViewController.swift */,
+				AFE4054C27F4087D00DC9A60 /* CategoriesCell.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AFE4054E27F4088900DC9A60 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DBC3227AA63E000F5C727 /* FavouriteTableViewController.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		AFE4054F27F4089C00DC9A60 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DBC2E27AA630800F5C727 /* HomeTableViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D6C69BC69294C2CC59F878CE /* Pods */ = {
@@ -315,6 +342,7 @@
 				AF890A3727F1DC0600401007 /* HeaderView.swift in Sources */,
 				AF1DBC2F27AA630800F5C727 /* HomeTableViewController.swift in Sources */,
 				AF0755F427A80DE5003303A6 /* CustomTextfield.swift in Sources */,
+				AFE4054D27F4087D00DC9A60 /* CategoriesCell.swift in Sources */,
 				AF97E51027EC76B000DEDF8B /* FeatureCell.swift in Sources */,
 				AFAD9BBB27E9F1F100545DFB /* ReceipeCell.swift in Sources */,
 				AFB8C6CA27A90B04005757CC /* SignUpViewController.swift in Sources */,

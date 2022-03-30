@@ -19,6 +19,6 @@ class CustomTextfield: UITextField {
     
     func defaultSetup() {
         layer.borderWidth  = 1
-        layer.borderColor = UIColor.orange.cgColor
+        layer.borderColor = UIColor.darkGray.cgColor
     }
 }
